@@ -2,31 +2,31 @@
 <html lang="pt-BR">
 	<head>
 		<meta charset="UTF-8"/>
+		<meta name="description" content="Template de single page">
+		<meta name="author" content="RT Informática">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
 		<title>Lorem | Consultoria em TI</title>
 	  
 		<!-- Carrega Materialize via CDN: -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css"/>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="css/materialize.min.css"/>
+		
 		<link href="css/estilos.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
 		<!-- Importa Material Design Icons do Google: -->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		
+		<!-- Fontes: -->
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 	   
-		<!-- Chama a função do Parallax. -->
-		<script>
-			$(document).ready(function(){
-				$('.parallax').parallax();
-			});
-		</script>
 	</head>
 	
 	<body>
+		
 		<div class="navbar-fixed"> <!-- Permite a barra de menu fixa na página. -->
 			<nav class="white" role="navigation">
 				<div class="nav-wrapper container">
-					<a id="logo-container" href="#" class="brand-logo">Logo</a>
+					<a id="logo-container" href="#" class="brand-logo">Lorem</a>
 					
 					<!-- Menu. -->
 					<ul class="right hide-on-med-and-down">
@@ -53,9 +53,9 @@
 				<div class="container">
 					<br><br>
 					
-					<h1 class="header center teal-text text-lighten-2">Lorem Consultoria em TI</h1>
+					<h1 class="header center text-lighten-2">Lorem</h1>
 					<div class="row center">
-						<h4 class="header col s12 light">A sua vida em tecnologia</h4>
+						<h4 class="header col s12"><span class="texto-paralax">A sua vida em tecnologia</span></h4>
 					</div>
 					
 					<br><br>
@@ -68,7 +68,7 @@
 		<div class="container">
 			<div class="section">
 
-			  <!-- Seção dos ícones   -->
+			  <!-- Seção dos ícones. -->
 				<div class="row">  
 				
 					<div class="col s12 m4">
@@ -109,7 +109,7 @@
 			<div class="section no-pad-bot">
 				<div class="container">
 					<div class="row center">
-						<h4 class="header col s12">Desenvolvimento</h4>
+						<h4 class="header col s12"><span class="texto-paralax">Desenvolvimento</span></h4>
 					</div> 
 				</div>
 			</div>
@@ -137,7 +137,7 @@
 			<div class="section no-pad-bot">
 				<div class="container">
 					<div class="row center">
-						<h4 class="header col s12">Gestão Estratégica de TI</h4>
+						<h4 class="header col s12"><span class="texto-paralax">Gestão Estratégica de TI</span></h4>
 					</div>
 				</div>
 			</div>
@@ -165,7 +165,7 @@
 			<div class="section no-pad-bot">
 				<div class="container">
 					<div class="row center">
-						<h4 class="header col s12">Infraestrutura e Suporte</h4>
+						<h4 class="header col s12"><span class="texto-paralax">Infraestrutura e Suporte</span></h4>
 					</div>
 				</div>
 			</div>
@@ -195,15 +195,14 @@
 			</div>
 			
 			<div class="footer-copyright">
-				<div class="container">
-					<a class="brown-text text-lighten-3" href="https://rtunited.github.io/" target="_blank">RT-United</a> 
-				</div>
+				<div class="container">&copy; 2017, Lorem</div>
 			</div> 
 		</footer>
 
 		<!--  Scripts-->
-		<!-- <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> -->
-		<script src="js/materialize.js"></script> 
+		<!-- Carrega Materialize via CDN: -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/materialize.min.js"></script>
 		<script src="js/init.js"></script>
 	</body>
 </html>

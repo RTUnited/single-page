@@ -2,11 +2,13 @@ body {
 	font-family:'Fjalla One', sans-serif;
 }
 
+
 h1.header {
 	font-family:'Pacifico', cursive;
 	color:none;
 	font-size:700%;
 }
+
 
 .central {
 	text-align:center;
@@ -15,43 +17,54 @@ h1.header {
 	align-items:center;
 }
 
+
 h4 {
 	line-height:190%;
 	margin-top:0px;
 }
 
+
 .letraEscura {
-	/*color: #000;*/
+	/*color:#000;*/
 }
+
  
-nav ul a,
-nav .brand-logo {
-  color: #444;
+nav ul a, nav .brand-logo {
+	color:#444;
 }
+
 
 #logo-container {
 	font-family:'Pacifico', cursive;
 	color:#418881;
 }
 
+
 p {
-  line-height: 2rem;
+	line-height:2rem;
 }
+
+p.light {
+	font-size:110%;
+}
+
 
 .button-collapse {
-  color: #26a69a;
+	color:#26a69a;
 }
+
 
 .parallax-container {
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
+	min-height:380px;
+	line-height:0px;
+	height:auto;
+	color:rgba(255,255,255,.9);
+	border-bottom:solid 10px;
+	border-bottom-color:rgba(0,150,136,0.6);
 }
 
-
 .parallax-container .section {
-	width: 100%;
+	width:100%;
 }
 
 
@@ -61,42 +74,58 @@ p {
 	background-color:rgba(0,0,0,0.9);
 	padding:10px;
 	border-radius:10px;
-	
 }
+
+
+.material-icons {
+	display:inline-flex !important;
+	vertical-align:sub;
+}
+
   
 .redes-sociais img {
 	width:50px;
 	margin:10px;
 	margin-left:15px;
-	margin-right:15px;
-	
+	margin-right:15px;	
 }
-  
+
+
+#copyright {
+	letter-spacing:1px;
+}
+
+
+.icon-block {
+	padding:0px 15px;
+}
+
+.icon-block .material-icons {
+	font-size:inherit;
+}
+
+
+footer.page-footer {
+	margin:0px;
+	padding-top:10px;
+	bakcground-color:#418881;
+}
+
 
 @media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
+	.parallax-container .section {
+		position:absolute;
+		top:40%;
+	}
+	
+	#index-banner .section {
+		top:10%;
+	}
 }
 
 @media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
+	#index-banner .section {
+		top:0px;
+	}
 }
 
-.icon-block {
-  padding: 0 15px;
-}
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-footer.page-footer {
-  margin: 0;
-  padding-top:10px;
-}

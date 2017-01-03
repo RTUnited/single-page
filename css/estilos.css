@@ -78,13 +78,14 @@ p.light {
 }
 
 
-/* Compatibilidade para o IE > 10. Se for IE, existe -ms-high-contrast, estando ativo ou não.
+/* Compatibilidade para o IE > 10. Se for IE, existe -ms-high-contrast, estando este ativo ou não.
 Assim sendo, ativa estilos específicos para este navegador. */
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none), (min-width:992px) {
 	.texto-paralax {
 		display:inline-flex;
-		margin-top:120px;	
+		margin-top:125px;	
 	}
+	
 	#primeira-paralax {
 		margin-top:0px;	
 	}
@@ -134,6 +135,10 @@ footer.page-footer {
 	
 	#index-banner .section {
 		top:10%;
+	}
+	
+	.texto-paralax {
+		margin-top:0px;	
 	}
 }
 
